@@ -1,0 +1,249 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+pre, p,  h5 {
+    color: white;
+}
+
+/* Imagem de Fundo */
+body {
+    background-image: url(fundo.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Estilização do Container*/
+.container {
+    height: 372px;
+    width: 997px;
+
+    background-color: black; /* Exemplo da imersão NWL*/
+
+    margin: 0 auto;
+    margin-top: 141px;
+    
+    display: flex;
+
+    border-radius: 35px;
+}
+
+/* Estilização do Painel De Login */
+.pnlogineregister {
+    height: 443px;
+    width: 429px;
+
+    margin-left: -359px; /* 212px ; */
+    margin-top: -35px;
+    margin-right: 1px;
+
+    background-color: 	rgba(7, 7, 7, 1);
+
+    z-index: 1000px;
+
+    transition:  1.2s;
+
+    border-radius: 60px;
+}
+
+.h2pnlogin {
+    margin-left: 49px;
+    margin-top: 44px;
+}
+
+.inputspnlogin {
+    width: 100px;
+
+    display: block; /* Se der display:block fica um do lado do outro*/
+    padding: 10px 126px 10px 7px;
+    outline: none;
+
+    margin-top: 34px;
+    margin-left: 50px;
+    margin-bottom: -10px;
+
+    background-color: #0f100f;
+    color: white;
+
+    border: 2px solid #df53d4;
+    border-radius: 19px;
+}
+
+.spanpnlogin {
+    font-size: 17px;
+    color: white;
+
+    margin-left: 67px;
+}
+
+.btnpnlogin {
+    padding: 6px 35px 6px 35px;
+
+    margin-top: 108px;
+    margin-left: 10px;
+
+    background: #df53d4;
+    color: white;
+
+    border: 2px solid white;
+    border-radius: 40px;
+
+    font-family: Arial, Helvetica, sans-serif; /* Mudar para Poppins*/
+    font-size: 18px;
+    letter-spacing: 1px;
+
+    cursor: pointer;
+}
+
+.btnpnlogin:hover {
+    text-shadow:  0 0 5px white, 0 0 25px white, 0 0 50px white, 0 0 200px white;
+    padding: 8px 37px 8px 37px;
+}
+
+/* Estilização do Painel De Login 2*/
+.pnlogin {
+    height: 443px;
+    width: 429px;
+
+    margin-left: 94px;
+    margin-top: -35px;
+    margin-right: 1px;
+
+    background-color: 	rgba(7, 7, 7, 1);
+
+    z-index: 1000px;
+
+    transition: 0.8s;
+
+    border-radius: 60px;
+}
+
+.inputspnlogin, .inputspnlogin2, .inputspnlogin3, .inputspnlogin4 {
+    width: 100px;
+
+    display: block; /* Se der display:block fica um do lado do outro*/
+    padding: 10px 126px 10px 7px;
+    outline: none;
+
+    margin-top: 34px;
+    margin-left: 50px;
+    margin-bottom: -10px;
+
+    background-color: #0f100f;
+    border: 2px solid #df53d4;
+    color: white;
+    border-radius: 19px;
+}
+
+.btnpnlogin2 {
+    padding: 6px 35px 6px 35px;
+
+    margin-top: 57px;
+    margin-left: 254px;
+
+    background: #df53d4;
+    color: white;
+
+    border: 2px solid white;
+    border-radius: 40px;
+
+    font-family: Arial, Helvetica, sans-serif; /* Mudar para Poppins*/
+    font-size: 18px;
+    letter-spacing: 1px;
+
+    cursor: pointer;
+}
+
+.btnpnlogin2:hover {
+    text-shadow:  0 0 5px white, 0 0 25px white, 0 0 50px white, 0 0 200px white;
+    padding: 8px 37px 8px 37px;
+}
+
+
+/* Estilização dos Blocos */
+.imgmaisbloco2 {
+    display: flex;
+    justify-content: end;
+    margin-left: 1px;
+}
+
+img {
+    height: 372px;
+    width: 200px;
+
+    margin-left: -1px;
+}
+
+.hbloco2 {
+    margin-top: 79px;
+   margin-left: 0px;
+}
+
+.pbloco2{
+    margin-left: -148px;
+    padding: 0px;
+}
+
+.bloco2 {
+    margin-left: 66px;
+}
+
+.btnbloco2 {
+    padding: 3px 25px 3px 25px;
+    margin-left: 30px;
+
+    border: 1px solid #df53d4;
+    border-radius: 15px;
+
+    background: none;
+    color: white;
+
+    cursor: pointer;
+
+}
+
+.btnbloco2:hover{
+    padding: 4px 28px 4px 28px;
+    text-shadow:  0 0 5px white, 0 0 25px white, 0 0 50px white, 0 0 200px white;
+}
+
+.imgmaisbloco1 {
+    display: flex;
+    justify-content: end;
+}
+
+.imgmaisbloco1off{
+    visibility: hidden;
+}
+
+.hbloco1 {
+    margin-top: 79px;
+   margin-left: 50px;
+   margin-bottom: 30px;
+}
+
+.pbloco1 {
+    margin-left: -169px;
+    padding-left: -1px;
+}
+
+.btnbloco1 {
+    padding: 3px 25px 3px 25px;
+    margin-top: 30px;
+    margin-left: 48px;
+
+    border: 1px solid #df53d4;
+    border-radius: 15px;
+
+    background: none;
+    color: white;
+
+    cursor: pointer;
+}
+
+.btnbloco1:hover{
+    padding: 4px 28px 4px 28px;
+    text-shadow:  0 0 5px white, 0 0 25px white, 0 0 50px white, 0 0 200px white;
+}

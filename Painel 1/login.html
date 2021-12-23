@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+    <title>Painel 1</title>
+</head>
+<body>
+    <div class="container">
+
+        <!--Painel de Registro-->
+        <div class="registro">
+            <h2 class="h2registro">Register</h2>
+            <form>
+                <label>
+                    <div class="logininput">
+                        <i class="bi bi-person-circle" id="icones"></i> <input type="email" class="inputregistrar"
+                            placeholder="username">
+                    </div>
+                    <div class="passwordinput">
+                        <i class="bi bi-shield-lock-fill" id="icones"></i> <input type="password" class="inputregistrar"
+                            placeholder="password">
+                    </div>
+                    <div class="passwordinput">
+                        <i class="bi bi-shield-lock-fill" id="icones"></i><input type="password" class="inputregistrar"
+                            placeholder="password">
+                    </div>
+                </label>
+            </form>
+
+            <button class="buttonRegistrar">Register</button>
+        </div>
+
+        <!--Painel de Login-->
+        <div class="login">
+            <h2 class="h2login">Login</h2>
+            <form>
+                <label>
+                    <div class="logininput">
+                        <i class="bi bi-person-circle" id="icones"></i>
+                        <input type="email" class="inputlogin" placeholder="login">
+                    </div>
+                </label>
+                <label>
+                    <div class="passwordinput">
+                        <i class="bi bi-shield-lock-fill" id="icones"></i>
+                        <input type="password" class="inputlogin" id="senha" placeholder="password">
+                    </div>
+                </label>
+
+                    <div class="checks">
+                        <div class="check1">
+                            <label>Mostrar senha</label>
+                            <input type="checkbox" name="" value="" onclick="revelarSenha()"> <!-- Já colocando o evento de escuta aqui mesmo-->
+                        </div>
+                    
+                        <div class="check2">
+                            <label>Salvar senha</label>
+                            <input type="checkbox" name="" value="">
+                        </div>
+                    </div>
+
+                    <button class="buttonLogin">Login</button>
+            </form>
+        </div>
+
+        <!--Painel de Status-->
+        <div class="status">
+            <h2 class="h2status">Admins Online</h2>
+        </div>
+    </div>  
+
+    
+    <script src="login.js"></script>
+</body>
+</html>

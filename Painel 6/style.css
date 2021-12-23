@@ -1,0 +1,303 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+pre, p{
+    color: black;
+}
+
+/* Imagem de Fundo */
+body {
+    background-image: url(lossantos.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 84vh; 
+}
+
+/* Estilização do Container */
+.container {
+    height: 500px;
+    width: 860px;
+
+    background-color: rgba(221, 221, 221, 0.8);
+    border-radius: 10px;
+
+    margin: 0 auto;
+    margin-top: 112px;
+
+    display: flex;
+}
+
+/* Estilização dos Painéis */
+/* Painel 1*/
+.pn1 {
+    height: 500px;
+    width: 430px;
+
+    background-color: transparent;
+}
+
+.pn1atl {
+    height: 500px;
+    width: 430px;
+
+    background-color: transparent;
+
+    margin-left: 430px;
+
+    transition: 1s;
+}
+
+.h1pn1 {
+  text-align: center;
+  margin-top: 73px;
+
+  font-family: 'Poppins';
+}
+
+.ppn1 {
+  text-align: center;
+  margin-bottom: 10px;
+
+  font-family: 'Open Sans';
+}
+
+.inputpn1 {
+    display: block;
+    
+    width: 150px;
+    padding: 10px 167px 10px 10px;
+
+    margin: 5px 0px 14px 52px;
+
+    outline: none;
+}
+
+.inputpn2 {
+    display: block;
+    
+    width: 150px;
+    padding: 10px 167px 10px 10px;
+
+    margin: 5px 0px 14px 52px;
+
+    outline: none;
+}
+
+.p2pn1 {
+    text-align: center;
+
+    margin-top: 37px;
+    margin-bottom: 25px;
+
+    cursor: pointer;
+
+    font-family: 'Open Sans';
+}
+
+.p2pn1:hover {
+    font-size: 18px;
+}
+
+.btnpn1 {
+   padding: 10px 107px 10px 107px; 
+   margin-left: 87px;
+
+   background-color: #ff5b29;
+   color: white;
+
+   border: none;
+   border-radius: 40px;
+
+   cursor: pointer;
+}
+
+.btnpn1:hover {
+    text-shadow: 0 0 5px white, 0 0 25px white, 0 0 50px white, 0 0 200px white;
+}
+
+/* Painel 2*/
+.pn2 {
+    height: 500px;
+    width: 430px;
+
+    background-color: #ff5765;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.pn2atl {
+    height: 500px;
+    width: 430px;
+
+    background-color: #ff5b30;
+    border-radius: 0px 10px 10px 0px;
+
+   margin-left: -860px;
+
+    transition: 1s;
+}
+
+
+.h1pn2 {
+    text-align: center;
+    margin-top: 130px;
+
+    color: white;
+
+    font-family: 'Poppins';
+}
+
+.ppn2 {
+    text-align: center;
+
+    margin-top: 25px;
+    margin-bottom: 70px;
+
+    color: white;
+
+    font-family: 'Open Sans';
+}
+
+.btnpn2 {
+    padding: 12px 37px 12px 37px;
+    margin-left: 158px;
+
+    background: none;
+    color: white;
+
+    border: 1px solid white;
+    border-radius: 25px;
+
+    cursor: pointer;
+}
+
+.btnpn2:hover {
+    text-shadow: 0 0 5px white, 0 0 25px white, 0 0 50px white, 0 0 200px white;
+    box-shadow: 0 0 4px white, 0 0 16px white, 0 0 32px white, 0 0 100px white;
+}
+
+
+/* Elementos dos Painéis novos */
+.h1 {
+    text-align: center;
+    margin-top: 155px;
+    margin-bottom: 20px;
+  
+    font-family: 'Poppins';
+
+    color: white;
+}
+
+.p {
+    text-align: center;
+
+    color: white;
+
+    font-family: 'Open Sans';
+}
+
+.btn{
+    padding: 12px 50px 12px 50px;
+    margin-top: 42px;
+    margin-left: 141px;
+
+    background: none;
+    color: white;
+
+    border: 1px solid white;
+    border-radius: 25px;
+
+    cursor: pointer;
+}
+
+.btn:hover{
+    text-shadow: 0 0 5px white, 0 0 25px white, 0 0 50px white, 0 0 200px white;
+    box-shadow: 0 0 4px white, 0 0 16px white, 0 0 32px white, 0 0 100px white;
+}
+
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+
+
+.h1form {
+    text-align: center;
+    margin-top: 40px;
+  
+    font-family: 'Poppins';
+}
+
+.pform {
+    text-align: center;
+
+    font-family: 'Open Sans';
+
+    font-weight: bold;
+
+    margin-top: 10px;
+    margin-bottom: 33px;
+}
+
+.inputform1 {
+    display: block;
+    
+    width: 150px;
+    padding: 10px 167px 10px 10px;
+
+    margin: 5px 0px 14px 52px;
+
+    outline: none;
+}
+
+.inputform2 {
+    display: block;
+    
+    width: 150px;
+    padding: 10px 167px 10px 10px;
+
+    margin: 5px 0px 14px 52px;
+
+    outline: none;
+}
+
+.inputform3 {
+    display: block;
+    
+    width: 150px;
+    padding: 10px 167px 10px 10px;
+
+    margin: 5px 0px 14px 52px;
+
+    outline: none;
+}
+
+.inputform4 {
+    display: block;
+    
+    width: 150px;
+    padding: 10px 167px 10px 10px;
+
+    margin: 5px 0px 14px 52px;
+
+    outline: none;
+}
+
+.btn2 {
+    padding: 10px 107px 10px 107px; 
+    margin-top: 27px;
+    margin-left: 87px;
+ 
+    background-color: #ff5b29;
+    color: white;
+ 
+    border: none;
+    border-radius: 40px;
+ 
+    cursor: pointer;
+}
+
+.btn2:hover {
+    text-shadow: 0 0 5px white, 0 0 25px white, 0 0 50px white, 0 0 200px white;
+}
